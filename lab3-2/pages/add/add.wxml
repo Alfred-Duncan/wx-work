@@ -1,0 +1,50 @@
+<view class="container">
+  <scroll-view>
+    <view class="login-icon"> 
+    <image class="login-img" src="/image/7.png"></image> 
+  </view>
+  <view class="content__friend" >
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index1.png" class="index-photo"></image>
+        <text class="content-text">Ice-cof</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index2.png" class="index-photo"></image>
+        <text class="content-text">Tea</text>
+      </view>
+      </view>
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index3.png" class="index-photo"></image>
+        <text class="content-text">Frappe</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index4.png" class="index-photo"></image>
+        <text class="content-text">Capucno</text>
+      </view>
+      </view>
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index5.png" class="index-photo"></image>
+        <text class="content-text">Mocha</text>
+      </view>
+      <view class=" photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index6.png" class="index-photo"></image>
+        <text class="content-text">Espresso</text>
+      </view>
+      </view>
+      <view class="photo-flex" >
+      <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+        <image src="../../images/index7.png" class="index-photo"></image>
+        <text class="content-text">Latte</text>
+      </view>
+      <view class=" photo-box" bindtap="">
+        <image src="../../images/index8.png" class="index-photo"></image>
+        <text class="content-text">Milk</text>
+      </view>
+    </view>
+  </view>
+  <view class="standView"></view> 
+  </scroll-view>
+</view>

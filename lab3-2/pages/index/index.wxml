@@ -1,0 +1,36 @@
+<view class="container"> 
+  <view class="login-icon"> 
+    <image class="login-img" src="/image/7.png"></image> 
+  </view> 
+  <view class="login-from"> 
+ 
+    <!--账号--> 
+    <view class="inputView"> 
+      <image class="nameImage" src="/image/3.png"></image> 
+      <label class="loginLab">Email</label> 
+      <input class="inputText" placeholder="Enter Email" 
+bindinput="phoneInput" /> 
+    </view> 
+    <view class="line"></view> 
+ 
+    <!--密码--> 
+    <view class="inputView"> 
+      <image class="keyImage" src="/image/1.png"></image> 
+      <label class="loginLab">Password</label> 
+      <input class="inputText" password="true" placeholder="Enter Password" bindinput="passwordInput" /> 
+    </view> 
+ 
+    <!--按钮--> 
+    <view>
+      <button 
+          type="primary"
+          size="{{primarySize}}"
+          loading="{{loading}}"
+          plain="{{plain}}"
+          disabled="{{disabled}}"
+          bindtap="Primary"
+          >Login
+        </button>
+    </view>  
+</view>  
+</view> 

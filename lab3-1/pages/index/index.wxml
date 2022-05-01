@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="row" wx:for="{{num}}" wx:for-item="item" wx:for-index="index">
+    <button class="btn {{item == 9?'active':''}}" catchtap='onMoveTap'  data-item="{{item}}" data-index="{{index}}">{{item}}</button>
+  </view>
+</view>
+
+<view class="init">
+
+  <button catchtap='init' type="primary">开始</button>
+
+</view>
