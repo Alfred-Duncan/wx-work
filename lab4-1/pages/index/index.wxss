@@ -1,0 +1,26 @@
+.slide-image {
+    width: 100%;
+   }
+.all{
+    font-size: 30rpx;
+}
+.wx-switch-input{
+    width: 90rpx !important;
+    height: 40rpx !important;
+}
+.wx-switch-input::before {
+    width: 90rpx !important;
+    height: 36rpx !important;
+}
+.wx-switch-input::after {
+    width: 40rpx !important;
+    height: 36rpx !important;
+    background: #f5e2e7 !important;
+}
+.slider .wx-slider-track {
+    background: linear-gradient(to right, #dbf741 0%, #00FFFF 100%);
+}
+.class .wx-slider-handle-wrapper {
+    height: 20rpx;
+}  
+    

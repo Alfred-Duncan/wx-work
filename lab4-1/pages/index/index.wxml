@@ -1,0 +1,21 @@
+<view class="all">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{activeColor}}">
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<navigator url="{{item.link}}" hover-class="navigator-hover">
+<image src="{{item.url}}" class="slide-image" width="355" height="200" />
+</navigator>
+</swiper-item>
+</block>
+</swiper>
+<view>指示点</view>
+<view ><switch checked="{{indicatorDots}}" bindchange="indicatorDots" color="#d4f191"/></view>
+<view>自动播放</view>
+<view ><switch checked="{{autoplay}}" bindchange="autoplay" color="#d4f191"/></view>
+<view><text>幻灯片切换时长(ms){{duration}}</text></view>
+<slider class="slider" bindchange="duration" value="{{duration}}" min="1000" max="4000" block-size="10"></slider>
+<view><text>自动播放间隔时长(ms){{interval}}</text></view>
+<slider class="slider" bindchange="interval" value="{{interval}}" min="1000" max="4000" block-size="10"></slider>
+</view>
+
+
