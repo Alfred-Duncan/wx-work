@@ -1,0 +1,8 @@
+.button{ 
+  width:40rpx; 
+  height:90rpx;  
+  text-align: center;
+  line-height: 38px; 
+  background-color: transparent;
+  border:none;
+}

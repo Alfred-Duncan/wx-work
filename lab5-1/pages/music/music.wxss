@@ -1,0 +1,42 @@
+.audiosBox{
+  width: 92%;
+  margin: auto;
+  height: 130rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6f7f7;
+  border-radius: 10rpx;
+ }
+.slid{
+  flex: 1;
+  position: relative;
+ }
+.slid view{
+  display: flex;
+  justify-content: space-between;
+ }
+.slid view>text:nth-child(1){
+  color: #4c9dee;
+  margin-left:6rpx; 
+ }
+.slid view>text:nth-child(2){
+  margin-right:6rpx; 
+ }
+.times{
+  width: 100rpx;
+  text-align: center;
+  display: inline-block;
+  font-size: 24rpx;
+  color:#999999;
+  margin-top: 5rpx;
+ }
+.button{ 
+  width:40rpx; 
+  height:90rpx;  
+  text-align: center;
+  line-height: 38px; 
+  background-color: transparent;
+  border:none;
+}
+

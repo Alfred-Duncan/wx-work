@@ -1,0 +1,26 @@
+<view class="mainContent">
+    <view class="mainList">
+        <view class="playerInfo" data-src="{{videoDetail.videoUrl}}" wx:if="{{current_id && current_id == videoDetail.id}}">
+            <view class="video">
+                <video class="videoContent" id="videoId" show-center-play-btn="true" autoplay="true"
+                    danmu-list="{{danmuList}}" danmu-btn enable-danmu
+                 src="{{videoDetail.videoUrl}}" object-fit="fill" bindfullscreenchange="fullscreenchange"></video>
+            </view>
+        </view>
+        <view class="playerInfo" data-src="{{videoDetail.videoUrl}}" wx:if="{{current_id =='' || current_id != videoDetail.id}}">
+            <view class="video">
+                <image class="playImg" src="/images/播放.png.png" mode="aspectFill" bindtap="videoPlay" id="{{videoDetail.id}}" data-index="videoId"/>
+                <image class="videoContent" src="{{videoDetail.poster}}" mode="aspectFill" bindtap="videoPlay" id="{{videoDetail.id}}" data-index="videoId"/>
+            </view>
+        </view>
+    </view>
+    <view class="danmu">
+        <view class="danmu-input">
+            <input class="weui-input" type="text" placeholder="请输入弹幕" bindblur="bindInputblur"/>
+        </view>
+        <view class="danmu-btn">
+            <button clsss="button" bindtap = "bindSendDanmu">发送弹幕</button>
+        </view>
+    </view>
+</view>
+

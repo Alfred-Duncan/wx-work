@@ -1,0 +1,23 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      circles="{{circles}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+      subkey="QZUBZ-TBURU-4QNV4-263IZ-BBD2Q-AJBP2"
+    ></map>
+  </view>
+  <view class="btn-area" style="display:flex">
+    <button bindtap="getCenterLocation" class="page-body-button">经纬</button>
+    <button bindtap="moveToLocation" class="page-body-button">定位</button>
+    <button bindtap="translateMarker" class="page-body-button">标注</button>
+    <button bindtap="includePoints" class="page-body-button">放缩</button>
+  </view>
+</view>
+
+

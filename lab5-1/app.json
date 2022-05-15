@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/music/music",
+        "pages/video/video",
+        "pages/image/image"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Lab5-1",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle":"white",
+        "list": [{
+          "selectedIconPath": "images/音频-选中.png",
+          "iconPath": "/images/音频.png",
+          "pagePath": "pages/music/music",
+          "text": "音频"
+        }, {
+          "selectedIconPath": "/images/视频-选中.png",
+          "iconPath": "images/视频.png",
+          "pagePath": "pages/video/video",
+          "text": "视频"
+        }, {
+          "selectedIconPath": "/images/图文-选中.png",
+          "iconPath": "images/图文.png",
+          "pagePath": "pages/image/image",
+          "text": "图像"
+        }]
+      }
+}

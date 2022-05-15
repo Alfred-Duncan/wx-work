@@ -1,0 +1,14 @@
+<text>Adele-Someone Like You</text>
+<view class='audiosBox'>
+<view class='slid'>
+<slider bindchange="sliderChange" block-size="12px" step="2" value="{{offset}}" max="{{max}}" selected-color="#4c9dee" />
+<view>
+<text class='times'>{{starttime}}</text>
+<text class='times'>{{duration}}</text></view>
+</view>
+</view>
+<view style="display:flex">
+<button class="button" bindtap="listenerButtonPlay">播放</button>
+<button class="button" bindtap="listenerButtonPause">暂停</button>
+<button class="button" bindtap="listenerButtonStop">停止</button>
+</view>
