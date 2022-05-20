@@ -1,0 +1,3 @@
+<button bindtap="upload" type="primary"> 上传图片 </button>
+<image src="{{imgUrl}}"></image>
+<button bindtap="download" data-img="{{imgUrl}}" type="primary"> 下载图片 </button>

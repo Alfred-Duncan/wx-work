@@ -1,0 +1,2 @@
+<button bindtap="add">添加学生信息</button>
+<button bindtap="manage">管理学生信息</button>

@@ -1,0 +1,63 @@
+.lable{
+  margin-left: 10rpx;
+  margin-top:10rpx;
+}
+.input{
+  background-color: rgb(212, 204, 204);
+  margin-left: 10rpx;
+  margin-top:10rpx;
+}
+.up {
+  margin-left: 80rpx;
+  margin-top: 40rpx;
+  height: 310rpx;
+  width: 620rpx;
+  border-radius: 5%;
+  letter-spacing:5rpx;
+  background-color: rgb(233, 219, 156);
+}
+.image{
+  top: 40rpx;
+  margin-left: 520rpx;
+  width: 150rpx;
+  height: 200rpx;
+  float: left;
+  position: absolute;
+}
+page{
+  background-color: rgb(183, 222, 241);
+}
+.one{
+  margin-left: 80rpx;
+}
+.font{
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+}
+.color3{
+  color: #333;
+} 
+.color6{
+  color: #666;
+}
+.timeIcon{
+  color:#666;
+}
+.two{
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}  
+.all{
+  font-size: 30rpx;
+}
+.lable1{
+  margin-left: 40rpx;
+  margin-top:10rpx;
+}
+.input1{
+  margin-left: 40rpx;
+  height: 350rpx;
+  width: 670rpx;
+  border-radius: 5%;
+  background-color: rgb(212, 204, 204);
+}

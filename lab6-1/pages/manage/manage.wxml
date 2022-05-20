@@ -1,0 +1,8 @@
+<view wx:for="{{list}}">
+<view>记录id:{{item._id}},学号:{{item.num}},姓名:{{item.num1}},年龄:{{item.num2}},电话:{{item.num3}}</view>
+<view style="display:flex;">
+<view bindtap="change" style="width: 90rpx; height: 50rpx; background-color: rgb(223, 245, 230);">更改</view>
+<view bindtap="delete" style="width: 90rpx; height: 50rpx; background-color: rgb(223, 245, 230);">删除</view>
+</view>
+<input placeholder="输入删除记录id" bindinput="delnum" />
+</view>
