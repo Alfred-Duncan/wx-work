@@ -1,0 +1,3 @@
+<view><view>卷腹练习60s</view>
+<view><text>还剩</text>{{time}}s</view>
+<button catchtap="">下一阶段</button></view>

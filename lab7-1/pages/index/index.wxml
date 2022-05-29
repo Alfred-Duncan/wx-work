@@ -1,0 +1,11 @@
+<view>手机型号：{{mobileModel}}</view>
+<view>手机像素比：{{mobileePixelRatio}}</view>
+<view>窗口宽度：{{windowWidth}}</view>
+<view>窗口高度：{{windowHeight}}</view>
+<view>微信设置的语言：{{language}}</view>
+<view>微信版本号：{{version}}</view>
+<view>设备品牌：{{brand}}</view>
+<view>操作系统：{{system}}</view>
+<view>客户端基础库版本：{{SDKVersion}}</view>
+<view>设备性能等级：{{benchmarkLevel}}</view>
+<view>用户字体大小：{{fontSizeSetting}}</view>
