@@ -1,0 +1,22 @@
+<view class="all">
+<view class="up">
+<view style="display:flex;">
+<label class="lable">学号：</label>
+<input type="digit" bindblur="bindKeyBlur" class="input" placeholder="请输入你的学号" auto-focus="true"/></view>
+<view style="display:flex;">
+<label class="lable">姓名：</label>
+<input type="digit" bindblur="bindValueBlur" class="input" placeholder="请输入你的姓名" auto-focus="true" value="{{value}}"/></view>
+<view style="display:flex;">
+<image class="image" src="/image/1.png"></image>
+</view></view></view>
+<button type="primary" bindtap="setStorage">写入缓存</button>
+<button type="mini" bindtap="getStorage">读取缓存</button>
+<button type="primary"  bindtap="getStorageInfo">获取全部缓存</button>
+keys:
+<block wx:for='{{storageInfo.keys}}'><text>{{item}} </text></block>
+<text>当前占用的空间大小 {{storageInfo.currentSize}} KB </text>   
+<view class="del" style="display:flex;">
+<view><input type="digit" bindblur="bindKeyBlur2" class="input" placeholder="请输入要移除缓存的key" auto-focus="true"/></view></view>
+<button type="mini" style="color:red;" bindtap="removeStorage">移除缓存</button>
+<button type="mini" class="warning" bindtap="clearStorage">清理缓存</button>
+

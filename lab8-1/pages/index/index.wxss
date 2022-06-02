@@ -1,0 +1,8 @@
+.th-text {
+  justify-content: center;
+  height: 350rpx;
+  width: 670rpx;
+  border-radius: 5%;
+  background-color: rgb(212, 204, 204);
+  margin-left: 40rpx;
+}

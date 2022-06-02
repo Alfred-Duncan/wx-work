@@ -1,0 +1,9 @@
+<text>请求网络数据</text>
+<view>wx.request</view>
+<input style="border:1px solid black" placeholder="请输入URL" bindblur="setURLValue" value="https://"></input>
+<textarea class="th-text" disabled='true'  style="overflow-y:auto;overflow-x:scroll;" selectable="true">callback：{{value}}</textarea>
+<button bindtap="request" type="primary">发起请求</button>
+<button bindtap="upload" type="primary"> 上传图片 </button>
+<image src="{{imgUrl}}"></image>
+<button bindtap="download" data-img="{{imgUrl}}" type="primary"> 下载图片 </button>
+
